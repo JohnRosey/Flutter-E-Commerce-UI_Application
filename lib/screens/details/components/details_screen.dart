@@ -31,7 +31,7 @@ class DetailsScreen extends StatelessWidget {
     return AppBar(
       backgroundColor: colorapp,
       elevation: 0,
-      title: Text("تفاصيل المنتج"),
+      title: Text("Ecran de  detaille"),
       centerTitle: true,
       leading: IconButton(
           icon: SvgPicture.asset(

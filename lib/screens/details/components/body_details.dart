@@ -8,7 +8,7 @@ import 'package:shop_app/screens/mobiles/mobile_body.dart';
 
 class BodyDetails extends StatelessWidget {
   final Product? product;
-  final MobileBody mobileBody = MobileBody();
+  final DenreeBody mobileBody = DenreeBody();
 
   BodyDetails({
     super.key,
@@ -68,13 +68,17 @@ class BodyDetails extends StatelessWidget {
                       //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Text(
-                          "اللون",
+                           "tailles",
                           style: TextStyle(color: colorapp, fontSize: 20),
                         ),
                         SizedBox(
                           width: kDefaultPaddin / 2,
                         ),
                         Container(
+                          child: Text(
+                            "5",
+                            style: TextStyle(color: colorapp, fontSize: 20),
+                          ),
                           width: 14,
                           height: 14,
                           decoration: BoxDecoration(
@@ -122,7 +126,7 @@ class BodyDetails extends StatelessWidget {
                             ]),
                         child: Center(
                           child: Text(
-                            "أضافة الى السلة",
+                          "Faire la commande",
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 18,
@@ -143,7 +147,7 @@ class BodyDetails extends StatelessWidget {
                             ]),
                         child: Center(
                           child: Text(
-                            "تمت اضافته الى السلة",
+                            "Deja dans le panier",
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 18,

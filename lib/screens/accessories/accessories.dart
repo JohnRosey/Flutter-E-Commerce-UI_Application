@@ -31,6 +31,6 @@ AppBar buildAppBar() {
       },
     ),
     centerTitle: true,
-    title: Text("الأكسسوارات"),
+    title: Text("AccessoriesBody"),
   );
 }

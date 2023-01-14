@@ -19,40 +19,41 @@ class Product {
 
 List<Product> products = [
   Product(
-      qty: 1,
+      qty: 5,
       id: 1,
-      title: "IPhone 12",
-      price: 750,
-      description: dummyText,
-      image: "assets/images/iphone_12.png",
-      color: Color.fromARGB(255, 42, 41, 128),
-      categories: "mobile device"),
+      title: "riz",
+      price: 15000,
+      description: "grains de riz",
+      image: "assets/images/riz.png",
+
+      color: const Color.fromARGB(255, 42, 41, 128),
+      categories: "denree"),
   Product(
       qty: 1,
       id: 2,
-      title: "IPhone 11",
+      title: "Mais",
       price: 400,
-      categories: "mobile device",
+      categories: "denree",
       description:
-          "Quick Charging , Operating System iOS v13.0,Dual SIM, Model iPhone 11 128GB, Network 4G",
-      image: "assets/images/IPhone_11.png",
-      color: Color.fromARGB(255, 167, 144, 219)),
+          " Grain de maïs  ",
+      image: "assets/images/mais.png",
+      color: const Color.fromARGB(255, 167, 144, 219)),
   Product(
       qty: 1,
       id: 3,
-      title: "IPone 12 Pro Max",
+      title: "Fonio",
       price: 234,
       description: dummyText,
-      categories: "mobile device",
-      image: "assets/images/IPhone_12_Pro_Max.png",
-      color: Color.fromARGB(255, 180, 175, 175)),
-  Product(
+      categories: "denree",
+      image: "assets/images/finio.png",
+      color: const Color.fromARGB(255, 180, 175, 175)),
+  /*Product(
       qty: 1,
       id: 4,
       title: "IPhone 14",
       price: 1120,
       description: dummyText,
-      categories: "mobile device",
+      categories: "denree",
       image: "assets/images/iPhone-14.png",
       color: Color.fromARGB(255, 180, 175, 174)),
   Product(
@@ -60,7 +61,7 @@ List<Product> products = [
       id: 5,
       title: "IPhone 13",
       price: 890,
-      categories: "mobile device",
+      categories: "denree",
       description: dummyText,
       image: "assets/images/iphone_13.png",
       color: Color.fromARGB(255, 205, 118, 47)),
@@ -73,7 +74,7 @@ List<Product> products = [
     categories: "mobile device",
     image: "assets/images/iphone_13_pro_max.png",
     color: Color.fromARGB(255, 135, 178, 231),
-  ),
+  ),*/
   Product(
       qty: 1,
       categories: "aaccessories",
@@ -82,7 +83,7 @@ List<Product> products = [
       price: 180,
       description: dummyText,
       image: "assets/images/airpids_pro.png",
-      color: Color(0xFF3D82AE)),
+      color: const Color(0xFF3D82AE)),
   Product(
       qty: 1,
       categories: "aaccessoriesmodel",
@@ -91,7 +92,7 @@ List<Product> products = [
       price: 790,
       description: dummyText,
       image: "assets/images/apple-watch-ultra.png",
-      color: Color.fromARGB(255, 167, 203, 251)),
+      color: const Color.fromARGB(255, 167, 203, 251)),
   Product(
       qty: 1,
       categories: "aaccessories",
@@ -100,7 +101,7 @@ List<Product> products = [
       price: 110,
       description: dummyText,
       image: "assets/images/freebuds4i-black.png",
-      color: Color(0xFF989493)),
+      color: const Color(0xFF989493)),
   Product(
       qty: 1,
       categories: "aaccessories",

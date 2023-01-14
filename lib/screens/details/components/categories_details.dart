@@ -19,7 +19,7 @@ class Catogriesview extends StatelessWidget {
     return GestureDetector(
       onTap: () {
         if (press == 0) {
-          Get.to(Mobiles());
+          Get.to(const Denree());
         } else if (press == 1) {
           Get.to(Accessories());
         } else if (press == 2) {

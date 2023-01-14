@@ -5,7 +5,7 @@ import '../../../providers/cartprovider.dart';
 import '../../mobiles/mobile_body.dart';
 
 class Cart extends StatelessWidget {
-  final MobileBody mobileBody = MobileBody();
+  final DenreeBody mobileBody = DenreeBody();
   Cart({
     super.key,
   });
@@ -32,7 +32,7 @@ class Cart extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(top: 270),
                   child: Text(
-                    " لم تقم بأضافة شيء الى السلة\n ابدأ تسوقك الأن ",
+                    "Votre Panier est vide ",
                     textAlign: TextAlign.center,
                   ),
                 )

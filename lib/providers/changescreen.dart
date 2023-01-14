@@ -36,7 +36,7 @@ class CreateAccount extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                "انشاء حسابك الأن",
+                "1",
                 style: TextStyle(
                     color: Color.fromARGB(255, 131, 131, 129),
                     fontSize: 16,
@@ -55,7 +55,7 @@ class CreateAccount extends StatelessWidget {
                       color: colorapp,
                     )),
                 fillColor: Color.fromARGB(255, 169, 166, 156),
-                hintText: "اسم المستخدم",
+                hintText: "2",
                 hintStyle: TextStyle(color: colorapp),
                 icon: Icon(
                   Icons.person,
@@ -75,7 +75,7 @@ class CreateAccount extends StatelessWidget {
                       )),
                   fillColor: Color.fromARGB(255, 169, 166, 156),
                   hintStyle: TextStyle(color: colorapp),
-                  hintText: "رقم الهاتف",
+                  hintText: "3",
                   icon: Icon(Icons.phone_iphone, color: colorapp),
                 ),
               ),
@@ -92,7 +92,7 @@ class CreateAccount extends StatelessWidget {
                       )),
                   fillColor: Color.fromARGB(255, 169, 166, 156),
                   hintStyle: TextStyle(color: colorapp),
-                  hintText: "العنوان",
+                  hintText: "اChangeScreen",
                   icon: Icon(Icons.location_city, color: colorapp),
                 ),
               ),
@@ -110,7 +110,7 @@ class CreateAccount extends StatelessWidget {
                       )),
                   fillColor: Color.fromARGB(255, 169, 166, 156),
                   hintStyle: TextStyle(color: colorapp),
-                  hintText: "كلمة المرور",
+                  hintText: "ChangeScreen",
                   icon: Icon(Icons.password, color: colorapp),
                 ),
               ),
@@ -130,7 +130,7 @@ class CreateAccount extends StatelessWidget {
                     ]),
                 child: Center(
                   child: Text(
-                    "انشاء حساب",
+                    "ChangeScreen",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
@@ -142,7 +142,7 @@ class CreateAccount extends StatelessWidget {
                 height: kDefaultPaddin / 2,
               ),
               Center(
-                child: Text(" هل تمتلك حساب بالفعل؟"),
+                child: Text(" ChangeScreen"),
               ),
               SizedBox(
                 height: kDefaultPaddin / 2,
@@ -165,7 +165,7 @@ class CreateAccount extends StatelessWidget {
                       ]),
                   child: Center(
                     child: Text(
-                      "تسجيل الدخول",
+                      "ChangeScreen",
                       style: TextStyle(
                           color: colorappo,
                           fontSize: 18,
@@ -203,7 +203,7 @@ class Login extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "قم بتسجيل الدخول الأن",
+                  "ChangeScreen",
                   style: TextStyle(
                       color: Color.fromARGB(255, 131, 131, 129),
                       fontSize: 16,
@@ -223,7 +223,7 @@ class Login extends StatelessWidget {
                         )),
                     fillColor: Color.fromARGB(255, 169, 166, 156),
                     hintStyle: TextStyle(color: colorapp),
-                    hintText: "رقم الهاتف",
+                    hintText: "ChangeScreen",
                     icon: Icon(Icons.phone_iphone, color: colorapp),
                   ),
                 ),
@@ -241,7 +241,7 @@ class Login extends StatelessWidget {
                         )),
                     fillColor: Color.fromARGB(255, 169, 166, 156),
                     hintStyle: TextStyle(color: colorapp),
-                    hintText: "كلمة المرور",
+                    hintText: "ChangeScreen",
                     icon: Icon(Icons.password, color: colorapp),
                   ),
                 ),
@@ -263,7 +263,7 @@ class Login extends StatelessWidget {
                       ]),
                   child: Center(
                     child: Text(
-                      "تسجيل الدخول ",
+                      "ChangeScreen ",
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 18,
@@ -275,7 +275,7 @@ class Login extends StatelessWidget {
                   height: kDefaultPaddin / 2,
                 ),
                 Center(
-                  child: Text(" قم بأنشاء حسابك الأن "),
+                  child: Text(" hjjhhj "),
                 ),
                 SizedBox(
                   height: kDefaultPaddin / 2,

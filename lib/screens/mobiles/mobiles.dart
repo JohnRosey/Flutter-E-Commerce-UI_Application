@@ -5,14 +5,14 @@ import 'package:get/get.dart';
 import '../details/components/constants.dart';
 import 'mobile_body.dart';
 
-class Mobiles extends StatelessWidget {
-  const Mobiles({super.key});
+class Denree extends StatelessWidget {
+  const Denree({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
-      body: MobileBody(),
+      body: DenreeBody(),
     );
   }
 }
@@ -31,6 +31,6 @@ AppBar buildAppBar() {
       },
     ),
     centerTitle: true,
-    title: Text("الأجهزة"),
+    title: Text("Denree Alimentaire"),
   );
 }

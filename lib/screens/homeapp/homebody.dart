@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shop_app/screens/details/components/constants.dart';
-import 'package:shop_app/model/Product.dart';
-import 'package:shop_app/screens/details/components/details_screen.dart';
+
 import 'package:shop_app/screens/homeapp/allproduct.dart';
-import 'package:shop_app/screens/mobiles/mobile_body.dart';
 import 'homecategories.dart';
-import '../details/components/item_cart.dart';
 
 class Body extends StatelessWidget {
   @override
@@ -32,7 +29,7 @@ class Body extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
-                  boxShadow: [
+                  boxShadow: const [
                     BoxShadow(
                         offset: Offset(0, 2),
                         color: Color.fromARGB(255, 224, 221, 221),
@@ -40,8 +37,8 @@ class Body extends StatelessWidget {
                   ]),
               child: TextFormField(
                   decoration: InputDecoration(
-                hintText: "أبحث هنا",
-                hintStyle: TextStyle(
+                hintText: "rechercher",
+                hintStyle: const TextStyle(
                   color: colorapp,
                   fontSize: 14,
                 ),
@@ -56,16 +53,16 @@ class Body extends StatelessWidget {
                 border: InputBorder.none,
               )),
             ),
-            SizedBox(height: 10,),
-            Text(
-              "الاقسام",
+            const SizedBox(height: 10,),
+            const Text(
+              "Categories",
               style: TextStyle(
                   color: colorapp, fontSize: 18, fontWeight: FontWeight.bold),
             ),
             Container(height: 140, child: Categories()),
             
             Text(
-              "احدث ما لدينا",
+              "Tendances ",
               style: TextStyle(
                   color: colorapp, fontSize: 18, fontWeight: FontWeight.bold),
             ),

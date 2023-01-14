@@ -31,7 +31,7 @@ AppBar buildAppBar() {
       },
     ),
     centerTitle: true,
-    title: Text("الصيانة"),
+    title: const Text("accessoire electronique "),
    
   );
 }

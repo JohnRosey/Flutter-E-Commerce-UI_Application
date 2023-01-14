@@ -5,10 +5,9 @@ class CategoriesModel {
 }
 
 List<CategoriesModel> categ = [
-  CategoriesModel(id: 1, title: "الأجهزة", image: "assets/images/iphones.png"),
+  CategoriesModel(id: 1, title: "Les denree alimentaires", image: "assets/images/riz.png"),
   CategoriesModel(
-      id: 2, title: "الأكسسوارات", image: "assets/images/accessories.png"),
-  CategoriesModel(id: 3, title: "الصيانة", image: "assets/images/phone_se.png"),
-  CategoriesModel(
-      id: 4, title: "بطاقات الشحن", image: "assets/images/iphones.png"),
+      id: 2, title: "les elements de construction", image: "assets/images/accessories.png"),
+  CategoriesModel(id: 3, title: "Electronique", image: "assets/images/phone_se.png"),
+  //CategoriesModel(id: 4, title: "Les produits de jardinage", image: "assets/images/iphones.png"),
 ];

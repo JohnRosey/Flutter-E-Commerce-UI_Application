@@ -10,15 +10,15 @@ import '../screens/homeapp/homebody.dart';
 
 class NavbarProvider with ChangeNotifier {
   List<NavbarDTO> items = [
-    NavbarDTO(label: "الرئيسية", widget: Body(), iconData: Icons.home_outlined),
+    NavbarDTO(label: "home", widget: Body(), iconData: Icons.home_outlined),
     NavbarDTO(
-      label: "السلة",
+      label: "panier",
       widget: Cart(),
       iconData: Icons.shopping_cart_outlined,
     ),
-    NavbarDTO(label: "المستخدم", widget: Account(), iconData: Icons.person),
+    NavbarDTO(label: "Compte", widget: Account(), iconData: Icons.person),
     NavbarDTO(
-      label: "من نحن",
+      label: "Detail",
       widget: StoreDetails(),
       iconData: Icons.question_mark,
     ),
