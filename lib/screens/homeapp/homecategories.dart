@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/model/categoriesmodel.dart';
+
+import '../../model/categoriesmodel.dart';
 import '../details/components/constants.dart';
 import '../details/components/categories_details.dart';
 

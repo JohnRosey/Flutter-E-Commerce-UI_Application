@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app/screens/details/components/constants.dart';
-import 'package:shop_app/model/Product.dart';
-import 'package:shop_app/providers/cartprovider.dart';
-import 'package:shop_app/screens/mobiles/mobile_body.dart';
+
+
+import '../../../model/Product.dart';
+import '../../../providers/cartprovider.dart';
+import '../../mobiles/mobile_body.dart';
+import 'constants.dart';
 
 class BodyDetails extends StatelessWidget {
   final Product? product;

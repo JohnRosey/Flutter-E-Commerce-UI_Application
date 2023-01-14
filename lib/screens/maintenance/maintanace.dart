@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:shop_app/screens/maintenance/maintanance_body.dart';
 
 import '../details/components/constants.dart';
+import 'maintanance_body.dart';
 
 class Maintenance extends StatelessWidget {
   const Maintenance({super.key});

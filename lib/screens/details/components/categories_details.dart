@@ -2,11 +2,12 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:shop_app/model/categoriesmodel.dart';
-import 'package:shop_app/screens/accessories/accessories.dart';
-import 'package:shop_app/screens/maintenance/maintanace.dart';
-import 'package:shop_app/screens/mobiles/mobiles.dart';
 
+
+import '../../../model/categoriesmodel.dart';
+import '../../accessories/accessories.dart';
+import '../../maintenance/maintanace.dart';
+import '../../mobiles/mobiles.dart';
 import 'constants.dart';
 
 class Catogriesview extends StatelessWidget {

@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app/screens/details/components/constants.dart';
-import 'package:shop_app/providers/Navbar_provider.dart';
-import 'package:shop_app/screens/homeapp/homebody.dart';
+
 import 'package:blurrycontainer/blurrycontainer.dart';
+
+import '../../providers/Navbar_provider.dart';
+import '../details/components/constants.dart';
 
 class HomeScreen extends StatelessWidget {
   NavbarProvider? navbarProvider;

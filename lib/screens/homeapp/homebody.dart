@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:shop_app/screens/details/components/constants.dart';
 
-import 'package:shop_app/screens/homeapp/allproduct.dart';
+import '../details/components/constants.dart';
+import 'allproduct.dart';
 import 'homecategories.dart';
 
 class Body extends StatelessWidget {

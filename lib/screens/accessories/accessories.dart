@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:shop_app/screens/accessories/accessories_body.dart';
 
 import '../details/components/constants.dart';
+import 'accessories_body.dart';
 
 class Accessories extends StatelessWidget {
   const Accessories({super.key});

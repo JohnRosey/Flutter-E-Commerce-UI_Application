@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:shop_app/screens/details/components/constants.dart';
-import 'package:shop_app/providers/Navbar_provider.dart';
-import 'package:shop_app/providers/cartprovider.dart';
-import 'package:shop_app/providers/changescreen.dart';
-import 'package:shop_app/screens/homeapp/home_screen.dart';
+
+import 'package:shop_shop/providers/Navbar_provider.dart';
+import 'package:shop_shop/providers/cartprovider.dart';
+import 'package:shop_shop/providers/changescreen.dart';
+import 'package:shop_shop/screens/details/components/constants.dart';
+import 'package:shop_shop/screens/homeapp/home_screen.dart';
 
 void main() {
   runApp(MultiProvider(

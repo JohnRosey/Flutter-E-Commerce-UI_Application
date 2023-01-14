@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/model/Product.dart';
-import 'package:shop_app/screens/mobiles/mobile_body.dart';
+
+
+import '../model/Product.dart';
 
 class CartProvider extends ChangeNotifier {
   List<Product> cart = [];
